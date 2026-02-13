@@ -2,9 +2,14 @@
 # --- Secrets ---
 ############################
 
+# Ignore all .env files
 .env
+.env.local
 .env.*
-*.env
+
+# Except the example template
+!.env.example
+
 
 ############################
 # --- Conda ---
