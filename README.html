@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Table of Contents</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+            
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <h1 id="table-of-contents">Table of Contents</h1>
+<ul>
+<li><a href="#table-of-contents">Table of Contents</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#setup-and-installation">Setup and installation</a>
+<ul>
+<li><a href="#1-install-conda">1: Install Conda</a></li>
+<li><a href="#2-clone-the-repository">2: Clone the Repository</a></li>
+<li><a href="#3-configure-kaggle-api-token">3: Configure Kaggle API Token</a></li>
+<li><a href="#4-create-the-conda-environment">4: Create the Conda Environment</a></li>
+<li><a href="#5-download-dataset">5: Download dataset:</a></li>
+<li><a href="#6-open-in-vs-code">6: Open in VS Code</a></li>
+<li><a href="#how-to-add-new-requirements">How to add new requirements:</a></li>
+</ul>
+</li>
+<li><a href="#authors-and-contributors">Authors and Contributors</a></li>
+</ul>
+<h1 id="about">About</h1>
+<p>Project for Data Mining Course at Aarhus University 2026</p>
+<p>Dataset is an a UK online retail from kaggle: <a href="https://www.kaggle.com/datasets/tunguz/online-retail">https://www.kaggle.com/datasets/tunguz/online-retail</a>.</p>
+<h1 id="setup-and-installation">Setup and installation</h1>
+<h3 id="1-install-conda">1: Install Conda</h3>
+<p>Download and install conda from: <a href="https://docs.conda.io/">https://docs.conda.io/</a></p>
+<h3 id="2-clone-the-repository">2: Clone the Repository</h3>
+<p>run</p>
+<pre><code class="language-bash">git <span class="hljs-built_in">clone</span> https://github.com/NouRALsaidD/data_mining_2026
+<span class="hljs-built_in">cd</span> data_mining_2026
+</code></pre>
+<h3 id="3-configure-kaggle-api-token">3: Configure Kaggle API Token</h3>
+<p><strong>1</strong>: Create an account / log in to Kaggle
+<strong>2</strong>: Generate a new API token
+<strong>3</strong>: Copy .env.example to .env by running:</p>
+<pre><code class="language-bash"><span class="hljs-built_in">cp</span> .env.example .<span class="hljs-built_in">env</span>
+</code></pre>
+<p><strong>4</strong>: Add your token to .env:</p>
+<pre><code class="language-ini"><span class="hljs-attr">KAGGLE_API_TOKEN</span>=your_token_here
+</code></pre>
+<h3 id="4-create-the-conda-environment">4: Create the Conda Environment</h3>
+<pre><code class="language-bash">make create
+</code></pre>
+<h3 id="5-download-dataset">5: Download dataset:</h3>
+<pre><code class="language-bash">make download-data
+</code></pre>
+<h3 id="6-open-in-vs-code">6: Open in VS Code</h3>
+<p><strong>1</strong>: Open the project folder in VS Code
+<strong>2</strong>: Open a notebook (.ipynb)
+<strong>3</strong>: Select the Conda environment as the kernel</p>
+<h3 id="how-to-add-new-requirements">How to add new requirements:</h3>
+<p><strong>1</strong>: add new dependency to environment.yml as such:</p>
+<pre><code class="language-yaml"><span class="hljs-attr">dependencies:</span>
+    <span class="hljs-bullet">-</span> <span class="hljs-string">plotly</span>  <span class="hljs-comment"># &lt;-- new package</span>
+</code></pre>
+<p><strong>2</strong>: Recreate the environment (do either)</p>
+<pre><code class="language-bash"><span class="hljs-comment"># Recreate</span>
+conda <span class="hljs-built_in">env</span> create -f environment.yml
+
+<span class="hljs-comment"># Or update existing environment</span>
+conda <span class="hljs-built_in">env</span> update -f environment.yml --prune
+</code></pre>
+<h1 id="authors-and-contributors">Authors and Contributors</h1>
+<ul>
+<li>Rasmus Skovgaard Pedersen</li>
+<li>Hjalte Vilford Vinther</li>
+<li>Nour Mamoun Abdul Rahman Al Said</li>
+</ul>
+
+            
+            
+        </body>
+        </html>

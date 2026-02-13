@@ -1,17 +1,32 @@
-# data_mining_2026
+# Table of Contents
+- [Table of Contents](#table-of-contents)
+- [About](#about)
+- [Setup and installation](#setup-and-installation)
+    - [1: Install Conda](#1-install-conda)
+    - [2: Clone the Repository](#2-clone-the-repository)
+    - [3: Configure Kaggle API Token](#3-configure-kaggle-api-token)
+    - [4: Create the Conda Environment](#4-create-the-conda-environment)
+    - [5: Download dataset:](#5-download-dataset)
+    - [6: Open in VS Code](#6-open-in-vs-code)
+    - [How to add new requirements:](#how-to-add-new-requirements)
+- [Authors and Contributors](#authors-and-contributors)
+
+
+
+# About
 Project for Data Mining Course at Aarhus University 2026
 
 Dataset is an a UK online retail from kaggle: https://www.kaggle.com/datasets/tunguz/online-retail.
 
 
-# Setup/installation
 
+# Setup and installation
 ### 1: Install Conda
 Download and install conda from: https://docs.conda.io/
 
 ### 2: Clone the Repository
 run
-````
+````bash
 git clone https://github.com/NouRALsaidD/data_mining_2026
 cd data_mining_2026
 ````
@@ -20,21 +35,22 @@ cd data_mining_2026
 **1**: Create an account / log in to Kaggle
 **2**: Generate a new API token
 **3**: Copy .env.example to .env by running:
-```
+```bash
 cp .env.example .env
-````
+```
+
 **4**: Add your token to .env:
-`````
+`````ini
 KAGGLE_API_TOKEN=your_token_here
 `````
 
 ### 4: Create the Conda Environment
-````
+````bash
 make create
 ````
 
 ### 5: Download dataset:
-````
+````bash
 make download-data
 ````
 
@@ -46,13 +62,13 @@ make download-data
 ### How to add new requirements:
 **1**: add new dependency to environment.yml as such:
 
-````
+````yaml
 dependencies:
     - plotly  # <-- new package
 ````
 
 **2**: Recreate the environment (do either)
-````
+````bash
 # Recreate
 conda env create -f environment.yml
 
@@ -60,3 +76,7 @@ conda env create -f environment.yml
 conda env update -f environment.yml --prune
 ````
 
+# Authors and Contributors
+* Rasmus Skovgaard Pedersen
+* Hjalte Vilford Vinther
+* Nour Mamoun Abdul Rahman Al Said
