@@ -9,6 +9,7 @@
     - [5: Download dataset:](#5-download-dataset)
     - [6: Open in VS Code](#6-open-in-vs-code)
     - [How to add new requirements:](#how-to-add-new-requirements)
+- [Windows systems](#windows-systems)
 - [Authors and Contributors](#authors-and-contributors)
 
 
@@ -75,6 +76,9 @@ conda env create -f environment.yml
 # Or update existing environment
 conda env update -f environment.yml --prune
 ````
+
+# Windows systems
+I Updated them Makefile so hopefully it works on windows now, but have not checked if it still works on mac as well.
 
 # Authors and Contributors
 * Rasmus Skovgaard Pedersen
