@@ -79,6 +79,13 @@ conda env update -f environment.yml --prune
 
 # Windows systems
 I Updated them Makefile so hopefully it works on windows now, but have not checked if it still works on mac as well.
+If you get an error when trying to run the Make file on windows, try installing ezwinports like this:
+
+```bash
+winget install ezwinports.make
+```
+
+Then restart your terminal and try again.
 
 # Authors and Contributors
 * Rasmus Skovgaard Pedersen
