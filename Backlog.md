@@ -8,6 +8,7 @@
 
 ## Low Priority
 - Add something about "Handling missing values"
+- Is the "sum" actually finding the sum?
 
 
 ## Ideas
