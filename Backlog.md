@@ -12,5 +12,5 @@
 
 ## Ideas
 - Maybe rename "Cleaning and Transformation" into just "Cleaning"?
-- Rename or flatten the "Feature Engineering" column names to make it a bit more clear on what each thing is. Could maybe also make it easier in the future to have 1 specific name for each thing
+- Rename or flatten the "Feature Engineering" column names to make it a bit more clear on what each thing is. Could maybe also make it easier in the future to have 1 specific name for each thing (done on my end). Might need to add some text about it though
 - 
