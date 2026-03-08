@@ -4,7 +4,7 @@
 - 
 
 ## Medium Priority
-- 
+- Make some outputs look much better (such as tables with features, which tend to become scrollable)
 
 ## Low Priority
 - Add something about "Handling missing values"
