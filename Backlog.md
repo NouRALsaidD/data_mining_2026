@@ -5,6 +5,7 @@
 
 ## Medium Priority
 - Make some outputs look much better (such as tables with features, which tend to become scrollable)
+- Make Cancellations actually work. Currently it's easiy to remove the ones with 'C', but also needs to remove the counter part
 
 ## Low Priority
 - Add something about "Handling missing values"
