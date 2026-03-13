@@ -13,3 +13,4 @@
 
 ## Ideas
 - Maybe rename "Cleaning and Transformation" into just "Cleaning"?
+- Cut long sentences into smaller pieces for readability/look of final pdf
