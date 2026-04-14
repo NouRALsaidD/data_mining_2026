@@ -1,13 +1,14 @@
 # Project Backlog
 
 ## High priority
-- 
+- Make a section regarding graph mining
+- Deepen the features of the clustering
+- Deepen the analysis of the clustering
 
 ## Medium Priority
-- Make Cancellations actually work. Currently it's easiy to remove the ones with 'C', but also needs to remove the counter part
+- 
 
 ## Low Priority
-- Add something about "Handling missing values"
 - Is the "sum" actually finding the sum?
 
 
