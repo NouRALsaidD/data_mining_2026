@@ -10,6 +10,7 @@ dependencies:
   - seaborn
   - scikit-learn
   - ipykernel
+  - networkx
   - pip
   - pip:
       - kaggle
