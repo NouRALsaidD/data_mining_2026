@@ -11,6 +11,7 @@
 
 ## Low Priority
 - Is the "sum" actually finding the sum?
+- In the graph-mining part we don't use the feature engineering as it hasn't included StockCode, but this could most likely just be added to it
 
 
 ## Ideas
