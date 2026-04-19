@@ -11,6 +11,8 @@ dependencies:
   - scikit-learn
   - ipykernel
   - networkx
+  - community
+  - python-louvain
   - pip
   - pip:
       - kaggle
